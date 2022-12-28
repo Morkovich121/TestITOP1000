@@ -1,0 +1,63 @@
+.header {
+    height: 15vh;
+    background-color: rgb(1, 212, 212);
+    display: flex;
+    width: 100%;
+}
+
+.header-image {
+    width: 20%;
+}
+
+.header__euro,
+.header__dollar {
+    width: 25%;
+    display: flex;
+}
+
+.header__uah {
+    width: 50%;
+    min-width: 50%;
+    display: flex;
+}
+
+.header__euro-currency {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.header__dollar-currency {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.header__uah-currency {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.small {
+    width: 10%;
+}
+
+.header-exchange {
+    width: 5%;
+}
